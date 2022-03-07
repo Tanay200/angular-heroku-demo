@@ -1,3 +1,14 @@
-<table *ngFor="let user of users">
-  <tr>{{user.name}}</tr>
+<table class="table table-success table-striped">
+  <thead>
+  <th>Name</th>
+  <th>Bio</th>
+  <th>Birthday</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of users">
+      <td>{{user.name}}</td>
+      <td>{{user.bio}}</td>
+      <td>{{user.birthDate}}</td>
+    </tr>
+  </tbody>
 </table>
