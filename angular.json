@@ -28,9 +28,12 @@
             ],
             "styles": [
               "src/styles.css",
-              "bootswatch/dist/superhero/bootstrap.min.css"
+              "bootswatch/dist/lux/bootstrap.min.css"
             ],
             "scripts": [
+
+
+
               "bootstrap/dist/js/bootstrap.min.js"
             ]
           },
@@ -98,7 +101,7 @@
             ],
             "styles": [
               "src/styles.css",
-              "bootswatch/dist/superhero/bootstrap.min.css"
+              "bootswatch/dist/lux/bootstrap.min.css"
             ],
             "scripts": [
               "bootstrap/dist/js/bootstrap.min.js"

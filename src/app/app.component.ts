@@ -12,12 +12,7 @@ export class AppComponent implements OnInit{
   constructor(private userService: UserService){}
 
   ngOnInit(): void {
-    this.userService.loadAll().subscribe(
-      (data)=>
-      {
-        this.users=data;
-      }
-    )
+
   }
   title = 'angular-heroku-demo';
 }

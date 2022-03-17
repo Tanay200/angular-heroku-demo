@@ -1,1 +1,16 @@
-sidebar
+<h1 style="text-align: center;">Users Infomation</h1>
+<br>
+<table class="table table-success table-hover">
+  <thead>
+  <th>Id</th>
+  <th>Name</th>
+  <th>Photo</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of users">
+      <td>{{user.id}}</td>
+      <td>{{user.first_name}}</td>
+      <td><img src={{user.avatar}}></td>
+    </tr>
+  </tbody>
+</table>

@@ -10,6 +10,8 @@ export class UserService {
 
   loadAll()
   {
-    return this.http.get("https://angular-material-api.azurewebsites.net/users");
+    // return this.http.get("https://angular-material-api.azurewebsites.net/users");
+        return this.http.get("https://reqres.in/api/users");
+
   }
 }
